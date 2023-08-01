@@ -19,7 +19,7 @@ const theme = {
     xhuge: "9.6rem",
   },
   medias: {
-    mobile: "@media (max-width: 480px)",
+    mobile: "@media (max-width: 420px)",
   },
 };
 
