@@ -1,5 +1,12 @@
+import { Container } from "./styles/AppStyles";
+import { Outlet } from "react-router-dom";
+
 const App = () => {
-  return <h1>Comics Shop</h1>;
+  return (
+    <Container>
+      <Outlet />
+    </Container>
+  );
 };
 
 export default App;
