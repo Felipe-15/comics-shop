@@ -1,11 +1,15 @@
+import Header from "./components/Header";
 import { Container } from "./styles/AppStyles";
 import { Outlet } from "react-router-dom";
 
 const App = () => {
   return (
-    <Container>
-      <Outlet />
-    </Container>
+    <>
+      <Header />
+      <Container>
+        <Outlet />
+      </Container>
+    </>
   );
 };
 
